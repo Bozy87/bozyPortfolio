@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="jesersV1.css" />
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="jesersV1.js" async=""></script>
+    <title>Bozy</title>
+  </head>
+  <style>
+
+
+
+@media screen and (max-width:700px)  {
+  #intro {
+   flex-direction: column;
+   margin-top: 10%;
+   
+ 
+  align-content: center;
+  }
+  #intro ul{
+    line-height: 2px;
+    
+  }
+  #logo img{
+    float: none;
+    display: block;
+    margin-right: 40%;;
+    min-width: 6em;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #intro ul{
+    margin-left: 1px;
+  }
+  
+}
+
+/*.......................*/
+:root{
+    font-family: Georgia;
+    font-size: 20px;
+   
+  }
+  
+  header{
+    box-sizing: border-box;
+    height: auto;
+    overflow-x: hidden;
+  }
+
+
+  html {
+    min-height: 100%;
+    
+    margin: 0.4%;
+    
+  }
+  body {
+    background: linear-gradient(#e0ffff, #deb887);
+    margin-bottom: 50px;;
+  }
+  
+  
+  #intro{
+    display: flex;
+    border-bottom: 1px solid #000; 
+    padding-top: 5px;  
+  overflow: hidden;
+    white-space: nowrap;
+    font-family: Bradley Hand;
+    font-size: 25px;
+  }
+  #intro ul {
+    margin-left: 25px;
+     margin-top: 5%;
+   
+  }
+  #intro ul a{
+    color: #000; 
+    text-decoration: none;
+  }
+  #intro p a{
+   
+    color: black;
+  }
+  #intro a:link:hover{
+    
+    background: radial-gradient(circle, rgba(65,114,231,0.3) 80%, rgba(224,255,255,1) 100%);
+  }
+  #intro a:link{
+    background: radial-gradient(
+        circle,
+        rgb(130, 173, 80, 0.5),
+        rgba(224, 255, 255, 1) 100%);
+  }
+  #intro a:active{
+      background-color: transparent;
+  }
+
+  #logo img{
+   
+    border-radius: 35% 10px   ;
+    width: 8vw; 
+  height: 8vw;
+float: right;
+  opacity: 70%;
+  background: radial-gradient(circle, rgb(229, 231, 235, 30) 60%, rgba(153,180,239,1) 17%, rgba(255,255,255,0) 100%); opacity: 10;
+    
+  }
+
+
+  </style>
+  <header class="main-content">
+     <div id="logo" >
+      <span >
+        <img 
+          src="AB.2.png"
+        />
+      </span></div>
+
+    <nav id="intro"  >
+      <ul id="q1" class="question" > <a  href="jesuisV1.html"> - Qui suis-je ?</a></ul>
+      <ul id="q2" class="question" > <a  href="jefaisV1.html">- Que fais-je ? </a></ul>   
+      <ul id="q3" class="question" > <a  href="japprendsV1.html">- Qu'apprends-je?</a></ul>
+      <ul id="q4" class="question" > <a  href="jesers.html">- Que sers-je?</a></ul>
+    </nav>
+      
+  </header>
+
+  <body>
+
+    <div id="signe" class="">
+        <div id="cadre" class="container-md">
+          <!.............................>
+          <legend id="legendastro">Astrologie</legend>
+          <div id="tout" class="row">
+  
+             <!......................................>
+                
+             <div id="user" class="col-5">
+                <div id="prenom">
+                  <label class="comuser"><u>Entrez votre prénom :</u></label><br>
+                  <input
+                    id="inputprenom"
+                         class="datein"
+                    value=""
+                    type="text"
+                    placeholder="Saisir un Prénom"
+                  />
+                  <span class="info"></span>
+                </div><br />
+              
+             
+                <div id="date">
+                  <label class="comuser"><u>Entrez votre date de naissance :</u></label
+                  ><br />
+                  <label class="cjour" for="jour">Jour</label><br>
+                  <input
+                    id="jour"
+                    class="datein"
+                    name="jour"
+                    value=""
+                    type="number"
+                    placeholder="Saisir un chiffre"
+                  />
+                  <span class="info"></span><br />
+  
+                  <label class="cmois">Mois</label><br>
+                  <select
+                    class="datein"
+                    id="mois"
+                    name="month"
+                    required="required"
+                  >
+                    <option id="mois" value="x">Choisissez un mois</option>
+                    <option value="1">Janvier</option>
+                    <option value="2">Février</option>
+                    <option value="3">Mars</option>
+                    <option value="4">Avril</option>
+                    <option value="5">Mai</option>
+                    <option value="6">Juin</option>
+                    <option value="7">Juillet</option>
+                    <option value="8">Août</option>
+                    <option value="9">Septembre</option>
+                    <option value="10">Octobre</option>
+                    <option value="11">Novembre</option>
+                    <option value="12">Décembre</option></select
+                  ><br />
+  
+                  <label>Année (entre 1930 et 2022)</label><br />
+                  <input
+                    id="annee"
+                    class="datein"
+                    value=""
+                    type="number"
+                    placeholder="Saisir un chiffre"
+                  />
+                </div>
+               
+              </div>
+            
+            <!...................Boutton  valider...................>
+            <div id="clicvalid" class="col-2">
+              <button id="valid" type="submit" class="btn">Valider</button>
+              <span class="info"></span>
+            </div>
+  
+            <!.................................Form 2 réponses..............................>
+            <div id="userreponse" class="col-5">
+              <form id="form2">
+               
+  
+                <!................Afficher phrase réponse...............>
+                <div id="reponse">
+                  <b><span id="ici" class="comuser2"></span></b>
+                </div>
+                <!................................................>
+                <div class="label2">
+                  <label class="comuser"><u>Votre signe astrologique est :</u></label><br>
+                  <b>
+                    <span
+                      id="signe1"
+                      value=""
+                      class="comuser2"
+                      type="text"
+                      name="sign"
+                    ></span></b
+                  ><br />
+                </div>
+                <div class="label2">
+                  <label class="comuser"><u>Signe chinois :</u></label><br>
+                  <b>
+                    <span id="signe2" class="comuser2" type="text" name="csign">
+                    </span>
+                  </b>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </body>
+</html>

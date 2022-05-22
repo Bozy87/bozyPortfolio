@@ -1,0 +1,81 @@
+
+/*....................contenu.............*/
+
+
+
+#cadre{
+    background: rgba(163,209,231,0.3757702910265669) 66%;
+    box-shadow: 0.3px 0.3px 4px 0.5px black;
+    height: 50%;
+    width: 75%;
+  border: 2px solid white;
+  margin: 3%;
+  margin-left: 10%;
+  }
+  
+  #tout{
+   
+   padding: 1%;
+   
+  }
+  
+  #user{
+    background: rgb(246,246,246, 40%);
+    
+   padding: 1%;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 3px -4px 2px -1px rgba(246,246,246,0.8), -4px 4px 6px 0px rgb(255, 255, 255) inset;
+  }
+  
+  #userreponse{
+    background: rgb(246,246,246, 40%);
+   padding: 1%;
+    text-align: center;
+    line-height: 80px; 
+      box-shadow: -3px -4px 2px -1px rgba(246,246,246,0.8), 4px 4px 6px 0px rgb(255, 255, 255) inset;
+    }
+  
+  
+  #clicvalid{
+  padding-top: 20%;
+    height: 15em;
+  
+    display: flex;
+   
+    justify-content: center;
+  }
+  #valid{
+   
+    
+    background: rgba(73,115,237,40%);
+    box-shadow: 1px 1px 1px black, 5px 5px 7px -3px #edede1 inset;
+  }
+  
+  /*..............................*/
+  
+  #legendastro {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 2em;
+    letter-spacing: 0.7em;
+    background: linear-gradient(90deg, rgb(15, 88, 214) 0%, rgba(122, 211, 27, 0.678) 90%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+  .datein{
+    width: 15em;
+    height: 1.5em;
+    text-align: center;
+  }
+  .comuser{
+     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 1.2em;
+  }
+  
+  .comuser2{
+    font-size: 1.5em;
+  }

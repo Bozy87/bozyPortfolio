@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="jesuis.css" />
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <title>Bozy</title>
+  </head>
+  <style>
+
+
+
+@media screen and (max-width:770px)  {
+  #intro {
+   display: inline-block;
+   margin-top: 8%;
+   justify-content: flex-start;
+  }
+  #intro ul{
+    margin-top: -8%;;
+    font-size: 15px;
+    padding: 0px;
+    margin-left: 5px !important;
+    letter-spacing: 0.1px;      
+  }
+  #logo img{  
+    display: block;
+    margin-right: 5%;;
+    width: 4em;
+    height: 1.5em;
+    flex-direction: column;
+  }
+  #liens{
+    width:50% !important;  
+  }
+  #liens a{
+    margin-top: 2px !important;
+  }
+
+}
+
+
+
+/*.......................*/
+:root{
+    font-family: Georgia;
+    font-size: 20px;
+   
+  }
+  
+  header{
+    box-sizing: border-box;
+    height: auto;
+    overflow-x: hidden;
+  }
+
+
+  html {
+    min-height: 100%;
+    margin: 0.4%;   
+  }
+  body {
+    background: linear-gradient(#e0ffff, #deb887);
+    margin-bottom: 50px;;
+  }
+    
+  #intro{
+    display: flex;
+    border-bottom: 0.4px solid #000; 
+    padding-top: 5px;  
+  overflow: hidden;
+    white-space: nowrap;
+    font-family: Bradley Hand;
+    font-size: 25px;
+    background: linear-gradient(180deg, rgba(192,255,255,1) 20%, rgba(222,236,236,0.2) 90%, rgba(158,170,170,0.5) 100%);
+    border-end-end-radius: 20% 20%;
+    border-left: 0.3px solid grey;
+  }
+  #intro ul {
+    margin-left: 25px;
+     margin-top: 5%;
+     
+   
+  }
+  #intro ul a{
+    color: #000; 
+    text-decoration: none;
+   
+  }
+  #intro p a{ 
+    color: black;
+    
+  }
+  #intro a:link:hover{  
+    background: radial-gradient(circle, rgba(65, 115, 231, 0.169) 80%, rgba(224,255,255,1) 100%);
+
+  }
+  #intro a:link{
+    background: radial-gradient(circle, rgba(224, 255, 255, 0.3) 1%, rgba(219, 48, 48, 0.3) 1%, rgba(252, 248, 8, 0.04) 60%);
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 100%;
+    padding: 30%;
+  
+  }
+  #q1 a:link{
+    padding: 23%;
+  }
+  #intro a:active{
+      background-color: transparent;
+  }
+
+  #logo img{ 
+    border-radius: 35% 10px   ;
+    width: 8vw; 
+  height: 8vw;
+margin-left: 91%;
+  opacity: 80%;
+  background: radial-gradient(circle, rgb(255, 255, 255, 100) 60%, rgba(153,180,239,0.8) 17%, rgba(255,255,255,0.8) 100%);
+  position: absolute;
+}
+#liens{  
+  box-shadow: 4px -1px 3px 1px white inset;
+  height: 4%;
+  width: 25%;
+  justify-content: center;
+  display: flex;
+  position:fixed;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(196,196,196,1) 0%, rgba(222,236,236,0.5) 80%, rgba(224,255,255,0.2) 100%);
+  padding-top: 0.4%;
+  border-end-end-radius: 20% 20%; 
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  cursor: pointer;  
+  margin-left: -5px;
+  border-bottom: 3px solid white;
+  
+}
+
+
+#liens a{
+  width: 20%;
+  height: 5%;
+  margin: 5px;
+  
+  margin-top: -2px;
+  transform: scale(0.5);  
+  
+}
+#liens img{
+  border-radius: 30%;
+  
+  
+}
+
+#liens a:hover{
+  transform: scale(1.5);
+}
+
+
+
+  </style>
+  <header class="main-content">
+    <!............Liens logo...............>
+    <div id="liens" class="ouvreliens">
+
+      <a><img id="git" width="60px" src="github.png"></a>
+      <a href="bozy.boite@gmail.com" target="_blank"><img id="sl" width="60px" src="slack.png"></a> 
+  <a href="https://www.linkedin.com/in/boris-andrieu-43a0081b4/" target="_blank"><img id="link" height="35px" width="50px" src="linked.png" ></a>
+  <a href="bozy.boite@gmail.com" target="_blank"><img id="gm" width="60px" src="gmail.png"></a>
+
+<!..........................................>
+    </div>
+     <div id="logo" >
+     <span >
+        <img 
+          src="AB.2.png"
+        />
+      </span>
+     </div>
+
+    <nav id="intro"  >
+      <ul id="q1" class="question" > <a  href="#"> - Qui suis-je ?</a></ul>
+      <ul id="q2" class="question" > <a  href="jefais.html">- Que fais-je ? </a></ul>   
+      <ul id="q3" class="question" > <a  href="japprend.html">- Qu'apprends-je ?</a></ul>
+      <ul id="q4" class="question" > <a  href="jesers.html">- Que sers-je ?</a></ul>
+    </nav>
+   
+   
+  </header>
+</html>

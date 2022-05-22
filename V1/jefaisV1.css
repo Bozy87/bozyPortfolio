@@ -1,0 +1,39 @@
+
+#menus{
+  width:10%;
+  
+}
+.bcolor{
+    background: radial-gradient(
+        circle,
+        rgba(65, 114, 231, 1) 0%,
+        rgba(224, 255, 255, 1) 100% 
+    );
+  }
+  
+  .prod{
+    margin-left: 30%;
+    width: 50%;
+    background: radial-gradient(circle, rgba(252,252,252,1) 32%, rgba(159,227,31,1) 100%);
+  }
+  legend{
+    margin: 8px;
+    text-align: center;
+  }
+  
+  .lecteur{
+    color: green;
+    width: 100%;
+  }
+  #zik a{
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 30px;
+  
+  }
+.container{
+  height: 80%;
+}
+  .col-3, .col-9{
+    border: 1px solid black;
+    
+  }
